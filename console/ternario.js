@@ -7,3 +7,5 @@ if(idadecliente >= idademinima){
 }else[
     console.log("suco")
 ]
+
+//a

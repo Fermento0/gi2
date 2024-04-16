@@ -8,3 +8,5 @@ const aluno = "Fantasma";
 
 const soma2 = `O resultado de ${umnumero} ${aluno}`;
 console.log(soma2);
+
+//a
