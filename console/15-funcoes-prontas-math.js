@@ -14,3 +14,5 @@ function calculaTempo(tempoObjetivo) {
 }
 
 console.log(calculaTempo(tempoObjetivo1))
+
+//a
