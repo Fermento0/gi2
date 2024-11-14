@@ -25,6 +25,16 @@ function juntaListas(Lista1, Lista2) {
 
             listaFinal[atual] = posicaoAtualLista2
 
+            posicaoAtualLista2++;
+
         }
+
+        atual++;
+
     }
+
+    while (posicaoAtualLista1 < Lista1.lenght){
+        listaFinal [atual] = Lista1 [posicaoAtualLista1];
+    }
+
 } 
