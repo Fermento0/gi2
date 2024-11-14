@@ -1,11 +1,12 @@
 class Carro {
-    constructor(modelo, cor) {
+    constructor(modelo, cor, potencia) {
         this.modelo = modelo;
         this.cor = cor
+        this.potencia = potencia
     }
 
     mostrarInformacoes() {
-        console.log(`O carro é um ${this.modelo} e a cor dele é ${this.cor}`);
+        console.log(`O carro é um ${this.modelo} e a cor dele é ${this.cor} a potência dele em cc é ${this.potencia}`);
     }
 
 }
